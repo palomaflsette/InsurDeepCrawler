@@ -35,4 +35,4 @@ Os N-gramas poderão ser processados por um algoritmo de classificação posteri
 
 #
   
-### Profundidade (Depht) especificadas com valor acima de 2 provavelmente levarão muito tempo para o término da execução do código.
+### Profundidade (Depht) especificada com valor acima de 2 provavelmente levarão muito tempo para o término da execução do código.
