@@ -1,9 +1,9 @@
 # Deep Learning Crawler for InsurUP
 ### Python3 é necessário para este projeto.
 
- Crawler alternativo para o InsurUP, um projeto de pesquisa qualificada para processos de subscrição de riscos, abordando uma conceito de Tree Data Structure (estrutura de dados em árvore) com a biblioteca anytree.
+ Crawler alternativo para o InsurUP, um projeto de pesquisa qualificada para processos de subscrição de riscos, abordando um conceito de Tree Data Structure (estrutura de dados em árvore) com a biblioteca anytree.
 
-Este é rastreador construído em python que implementa a Pesquisa aprofundada iterativa para eliminar todos os
+Este é rastreador construído em python implementa a Pesquisa Aprofundada iterativa (Deepening Depth Search) para rastrear todos os
 os "links filhos" (childrens) a partir de uma URL de base específica (parent) até uma profundidade especificada. Durante o scraping, o programa salva o HTML de cada página encontrada em um arquivo de texto e executa um N-gram Feature Extractor nesses arquivos. N-grama é uma sequência contígua N itens de uma determinada amostra de texto, esses itens podem ser palavras, sílabas, fonemas, letras ou pares de base de acordo com a aplicação. 
 
 Exemplificando:
