@@ -3,8 +3,8 @@
 
  Crawler alternativo para o InsurUP, um projeto de pesquisa qualificada para processos de subscrição de riscos, abordando um conceito de Tree Data Structure (estrutura de dados em árvore) com a biblioteca anytree.
 
-Este é rastreador construído em python implementa a Pesquisa Aprofundada iterativa (Deepening Depth Search) para rastrear todos os
-os "links filhos" (childrens) a partir de uma URL de base específica (parent) até uma profundidade especificada. Durante o scraping, o programa salva o HTML de cada página encontrada em um arquivo de texto e executa um N-gram Feature Extractor nesses arquivos. N-grama é uma sequência contígua N itens de uma determinada amostra de texto, esses itens podem ser palavras, sílabas, fonemas, letras ou pares de base de acordo com a aplicação. 
+Este é rastreador construído em python que implementa a Pesquisa Aprofundada iterativa (Deepening Depth Search) para rastrear todos os
+os "links filhos" (childrens) a partir de uma URL de base específica (parent) até uma profundidade especificada (Depth). Durante o scraping, o programa salva o HTML de cada página encontrada em um arquivo de texto e executa um N-gram Feature Extractor (extração de unigramas/n-gramas) nesses arquivos. N-grama é uma sequência contígua de N itens de uma determinada amostra de texto, esses itens podem ser palavras, sílabas, fonemas, letras ou pares de base de acordo com a aplicação. 
 
 Exemplificando:
 
@@ -35,4 +35,4 @@ Os N-gramas poderão ser processados por um algoritmo de classificação posteri
 
 #
   
-### Profundidade (Depht) especificada com valor acima de 2 provavelmente levarão muito tempo para o término da execução do código.
+### Profundidade (Depht) especificada com valor acima de 2 provavelmente levará muito tempo para o término da execução do código.
